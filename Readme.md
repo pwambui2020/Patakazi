@@ -16,7 +16,8 @@ incase you encounter other bugs please reach out via the email i have provided.
 * HTML
 * js
 ###Demo
- * To get access to a live demo click this link  https://github.com/SILVIAKAGO/services.git
+ * To get access to a live demo click this link  https://github.com/pwambui2020/Patakazi.git
+ * To get figma design click this link https://www.figma.com/file/6mp3sCBmKMlNMVNP3icpKx/Untitled
 
 
 ### License
