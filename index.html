@@ -1,350 +1,281 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <title>Hello, world!</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link id="subscribe" href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet"
+    type="text/css">
+  <script src="https://kit.fontawesome.com/e08a4b84aa.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Patakazi-Service-App</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- CSS only -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#homepage">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonials">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact us</a>
+        </li>
 
-        <!-- JS, Popper.js, and jQuery -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-        </script>
-        <link rel="stylesheet" href="css/navbar.css">
-        <title>Service-App</title>
-    </head>
+    </div>
+  </nav>
 
-    <body>
 
-        <nav>
-            <div class="top-nav sticky-nav">
-                <div class="side-nav sticky-nav">
-                </div>
-                <div class="center-nav sticky-nav">
-                    <p class="nav-header">PataKazi Service App</p>
-                </div>
+  <div class="container-fluid bg-img">
+    <p class="header">Patakazi-Service-App</p>
 
-                <div class="end-nav sticky-nav"></div>
-                <ul class="list">
-                    <li><a href="#carouselExampleFade">Home</a></li>
-                    <li><a href="#homepage">About Us</a></li>
-                    <li><a href="#Testimonials">Testimonials</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="/sevrvice/html/signup.html">Sign Up/Log In</a></li>
-                </ul>
-            </div>
-            </div>
-        </nav>
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="/images/pexels-arantxa-treva-959325.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="heading">Have you tried Us?</h5>
-                        <p class="pass">Then you are missing out alot</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="/images/pexels-andrea-piacquadio-3768911.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="heading">Get the right service and skill</h5>
-                        <p class="pass">We will offer you the chance to meet your customer that is near you.We also offer you a chance to guide you and offer you the right opportunities in life.Welcome to us.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="/images/pexels-ketut-subiyanto-4559747.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="heading">Best Outstanding Service</h5>
-                        <p class="pass1">Just for you</p>
-                        <a class="btn btn-outline-warning" href="/sevrvice/html/signup.html" role="button" id="join">Join Us</a>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+  </div>
+
+  <div class="container-fluid p-4 about-bg">
+    <div class="row">
+      <div class="col-12 mt-3 mx-3">
+        <p class="about-heading">About Us</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 mt-2 mx-3">
+        <p class="about-text">
+          Patakazi service application is a first generation application that
+          allows users to register with us..This applications allows you to get a chance to work with people who want
+          your
+          services in your area and beyond.This application allows the
+          client to select and have someone do their job where they want.It is a means to empower the unemployed and
+          those
+          who have services skills like ;mechanics,photographer ,graphic designer,carpenter,tailor and etc,yet they
+          don't
+          have a stable
+          job,or they want to work as a freelance.Moric came up with the idea as in his area most people are skilfull in
+          certain area yet they lack exposure to the right people.This is what we want to curb,as Patakazi-App.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid py-5">
+    <div class="row justify-content-center">
+      <div class="col-3">
+        <select class="form-control form-control-lg" id="searchText">
+          <option>Please select a category :</option>
+          <option value="jua-kali">Jua kali</option>
+          <option value="teaching">Teaching</option>
+          <option value="office">Office work</option>
+          
+        </select>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mt-2">
+      <div class="col-3">
+        <button class="btn btn-primary w-100" id="search">Search</button>
+      </div>
+    </div>
+
+    <div class="row d-flex justify-content-center mt-3 " id="jobs">
+      <div class="col-3 ">
+        <div class="row">
+          <div class="col-6 d-flex justify-content-end">
+            Name:
+          </div>
+          <div class="col-6 d-flex justify-content-start">
+            <label for="" id="name"></label>
+          </div>
+          <div class="col-6 d-flex justify-content-end">
+            Phone:
+          </div>
+          <div class="col-6 d-flex justify-content-start">
+           <label for="" id="phone"></label>
+          </div>
+          <div class="col-6 d-flex justify-content-end">
+           Service
+          </div>
+          <div class="col-6 d-flex justify-content-start">
+            <label for="" id="service"></label>
+          </div>
+            
         </div>
-        <div class="Aboutus" id="homepage">
-            <div class="home-overlay">
-                <h1 class="aboutus text-center">About Us</h1>
-                <br>
-                <p class="aboutus text-center">Service application is a first generation application that allows users to enter their credentials</p>
-            </div>
-            <br>
+        
+      </div>
+      <div class="col-3 ">
+        <div class="row">
+          <div class="col-6 d-flex justify-content-end">
+            Name:
+          </div>
+          <div class="col-6 d-flex justify-content-start">
+            <label for="" id="name2"></label>
+          </div>
+          <div class="col-6 d-flex justify-content-end">
+            Phone:
+          </div>
+          <div class="col-6 d-flex justify-content-start">
+           <label for="" id="phone2"></label>
+          </div>
+          <div class="col-6 d-flex justify-content-end">
+           Service
+          </div>
+          <div class="col-6 d-flex justify-content-start">
+            <label for="" id="service2"></label>
+          </div>
+            
         </div>
+        
+      </div> <div class="col-3 ">
+        <div class="row">
+          <div class="col-6 d-flex justify-content-end">
+            Name:
+          </div>
+          <div class="col-6 d-flex justify-content-start">
+            <label for="" id="name3"></label>
+          </div>
+          <div class="col-6 d-flex justify-content-end">
+            Phone:
+          </div>
+          <div class="col-6 d-flex justify-content-start">
+           <label for="" id="phone3"></label>
+          </div>
+          <div class="col-6 d-flex justify-content-end">
+           Service
+          </div>
+          <div class="col-6 d-flex justify-content-start">
+            <label for="" id="service3"></label>
+          </div>
+            
+        </div>
+        
+      </div>
+
+    </div>
+
+   
+  </div>
+
+  <div class="container">
+    <h1 class="text-center">Testimonials</h1>
+    <br>
+    <div class="container" id="Testimonials">
+      <br>
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <div class="box">
+            <img src="/images/pexels-andrea-piacquadio-3768911.jpg">
+            <div class="box-content">
+              <h3 class="title">Paulyne Wambui</h3>
+              <span class="post">Entrepreneur</span>
+              <p class="free">"I wanted someone to create a website for me,I got her here"</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="box">
+            <img src="/images/construction-646913.jpg">
+            <div class="box-content">
+              <h3 class="title">Miranda Roy</h3>
+              <span class="post">Web designer</span>
+              <p class="free">"One of the best sites,they are efficient as my car was broken down in Ruaka they came to
+                my aid"</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="box">
+            <img src="/images/pexels-ketut-subiyanto-4559747.jpg">
+            <div class="box-content">
+              <h3 class="title">Wanjohi Kimani</h3>
+              <span class="post">Electrician</span>
+              <p class="free">"One of the best sites,they are efficient as my car was broken down in Ruaka they came to
+                my aid"</p>
+            </div>
+          </div>
         </div>
         <br>
+
+
+      </div>
+    </div>
+    <br>
+    <br>
+  </div>
+
+  <div id="mc_embed_signup">
+    <form action="https://gmail.us17.list-manage.com/subscribe/post?u=488226c6c74f5d63c27b7b15b&amp;id=f64e54c5f0"
+      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+      novalidate>
+      <div id="mc_embed_signup_scroll">
+        <label for="mce-EMAIL">Subscribe For New Alerts</label>
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+            name="b_488226c6c74f5d63c27b7b15b_f64e54c5f0" tabindex="-1" value=""></div>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+            class="button"></div>
         <br>
-        <div class="container">
-            <h1 class="text-center">Testimonials</h1>
-            <br>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="box">
-                        <img src="/images/pexels-andrea-piacquadio-3768911.jpg">
-                        <div class="box-content">
-                            <ul class="icon">
-                                <li><a href="#"><i class="fa fa-search"></i></a></li>
-                                <li><a href="#"><i class="fa fa-link"></i></a></li>
-                            </ul>
-                            <h3 class="title">John Kamau</h3>
-                            <span class="post">Entrepreneur</span>
-                            <p class="free">"I wanted someone to create a website for me,I got her here"</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="box">
-                        <img src="/images/pexels-arantxa-treva-959325.jpg">
-                        <div class="box-content">
-                            <ul class="icon">
-                                <li><a href="#"><i class="fa fa-search"></i></a></li>
-                                <li><a href="#"><i class="fa fa-link"></i></a></li>
-                            </ul>
-                            <h3 class="title">Miranda Roy</h3>
-                            <span class="post">Web designer</span>
-                            <p class="free">"One of the best sites,they are efficient as my car was broken down in Ruaka they came to my aid"</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="box">
-                        <img src="/images/pexels-arantxa-treva-959325.jpg">
-                        <div class="box-content">
-                            <ul class="icon">
-                                <li><a href="#"><i class="fa fa-search"></i></a></li>
-                                <li><a href="#"><i class="fa fa-link"></i></a></li>
-                            </ul>
-                            <h3 class="title">Miranda Roy</h3>
-                            <span class="post">MD Google Africa</span>
-                            <p class="free">"One of the best sites,they are efficient as my car was broken down in Ruaka they came to my aid"</p>
-                        </div>
-                    </div>
-                    <br>
-                </div>
-            </div>
-            <div class="container" id="Testimonials">
-                <br>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="box">
-                            <img src="/images/pexels-andrea-piacquadio-3768911.jpg">
-                            <div class="box-content">
-                                <ul class="icon">
-                                    <li><a href="#"><i class="fa fa-search"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
-                                </ul>
-                                <h3 class="title">John Kamau</h3>
-                                <span class="post">Entrepreneur</span>
-                                <p class="free">"I wanted someone to create a website for me,I got her here"</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="box">
-                            <img src="/images/pexels-arantxa-treva-959325.jpg">
-                            <div class="box-content">
-                                <ul class="icon">
-                                    <li><a href="#"><i class="fa fa-search"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
-                                </ul>
-                                <h3 class="title">Miranda Roy</h3>
-                                <span class="post">Web designer</span>
-                                <p class="free">"One of the best sites,they are efficient as my car was broken down in Ruaka they came to my aid"</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="box">
-                            <img src="/images/pexels-arantxa-treva-959325.jpg">
-                            <div class="box-content">
-                                <ul class="icon">
-                                    <li><a href="#"><i class="fa fa-search"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-link"></i></a></li>
-                                </ul>
-                                <h3 class="title">Miranda Roy</h3>
-                                <span class="post">MD Google Africa</span>
-                                <p class="free">"One of the best sites,they are efficient as my car was broken down in Ruaka they came to my aid"</p>
-                            </div>
-                        </div>
+      </div>
+    </form>
+  </div>
 
-                    </div>
-                </div>
-                <br>
-                <br>
-                <div class="test">
-                    <h3 class="text-center">Some of The Companies our service providers have worked with include:</h3>
-                    <br>
-                    <h3></h3>
-                    <div class="row row-cols-4 row-cols-md-4">
-                        <div class="col mb-4">
-                            <div class="card">
-                                <!-- <img src="..." class="card-img-top" alt="..."> -->
-                                <div class="card-body">
-                                    <h5 class="card-title">Luke </h5>
-                                    <p class="card-text"></p>
-                                </div>
-                            </div>
-                        </div>
+  <div class="container-fluid about-bg">
+    <div class="row p-4 justify-content-center">
+      <div class="col-md-3 text-center col-sm-12">
+        <i class="fas fa-home fa-lg"></i> <br>
+        <i>First floor, Maguna Center</i><br>
+        <i>Along Thika Super Highway, Nairobi</i>
+      </div>
+      <div class="col-md-3 text-center col-sm-12">
+        <i class="fas fa-envelope fa-lg"></i> <br>
+        <i><a href="mailto: info@patakazi.com">info@patakazi.com</a></i> <br>
+        <i><a href="mailto: jobs@patakazi.com">jobs@patakazi.com</a></i> <br>
+      </div>
+      <div class="col-md-3 text-center col-sm-12">
+        <i class="fas fa-phone fa-lg"></i> <br>
+        <i><a href="tel:0722558866">+254 722 558 866</a></i> <br>
+        <i><a href="tel:0720111333">+254 720 111 333</a></i> <br>
+      </div>
+    </div>
+  </div>
 
-                        <div class="col mb-2">
-                            <div class="card">
-                                <!-- <img src="..." class="card-img-top" alt="..."> -->
-                                <div class="card-body">
-                                    <h5 class="card-title">Twitter</h5>
-                                    <p class="card-text"></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-2">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text"></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-2">
-                            <div class="card">
-                                <!-- <img src="..." class="card-img-top" alt="..."> -->
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text"></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row row-cols-4 row-cols-md-4">
-                        <div class="col mb-4">
-                            <div class="card">
-                                <!-- <img src="..." class="card-img-top" alt="..."> -->
-                                <div class="card-body">
-                                    <h5 class="card-title">Luke </h5>
-                                    <p class="card-text"></p>
-                                </div>
-                            </div>
-                        </div>
+  <div class="container-fluid p-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p class="font-weight-bold">Patakazi @2020</p>
+      </div>
+    </div>
+  </div>
 
-                        <div class="col mb-2">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Twitter</h5>
-                                    <p class="card-text"></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-2">
-                            <div class="card">
-                                <!-- <img src="..." class="card-img-top" alt="..."> -->
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text"></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-2">
-                            <div class="card">
-                                <!-- <img src="..." class="card-img-top" alt="..."> -->
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text"></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                </div>
-                <br>
-                <br>
-                <!-- Begin Mailchimp Signup Form -->
-                <link id="subscribe" href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-                <style type="text/css">
-                    #mc_embed_signup {
-                        background: rgba;
-                        clear: left;
-                        font: 14px Helvetica, Arial, sans-serif;
-                        width: 100%;
-                    }
-                    /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-                </style>
-                <div id="mc_embed_signup">
-                    <form action="https://gmail.us17.list-manage.com/subscribe/post?u=488226c6c74f5d63c27b7b15b&amp;id=f64e54c5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                            <label for="mce-EMAIL">Subscribe For New Alerts</label>
-                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_488226c6c74f5d63c27b7b15b_f64e54c5f0" tabindex="-1" value=""></div>
-                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            </section>
-                            <br>
-                            <div class="container-fluid" id="contact">
-                                <div class="controls-top ">
-                                    <h2>Contact Us</h2>
-                                </div>
-                                <br>
-                                <br>
-                                <div class="row" id="contactdetails">
-                                    <div class="col-md-4">
-                                        <img src="https://img.icons8.com/ios-filled/50/000000/link-company-parent.png">
-                                        <p>iOS store</p>
-                                        <p>at Appstore</p>
-                                    </div>
-                                    <div class="col-md-4 text-justify" id="details">
-                                        <img src="https://img.icons8.com/pastel-glyph/64/000000/place-marker.png">
-                                        <p>service@</p>
-                                        <p>Thika Road</p>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <img src="https://img.icons8.com/ios-filled/50/000000/add-contact-to-company.png">
-                                        <p>info@</p>
-                                        <p>Tell: 01100427697</p>
-                                        <p>Phone: +2547916102</p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="container text-center footer">
-                                        <p>&copy; 2020 || </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                </form>
-
-            </div>
-
-            <!--End mc_embed_signup-->
-    </body>
-
-    </html>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>
